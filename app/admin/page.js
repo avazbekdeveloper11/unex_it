@@ -1,4 +1,6 @@
+"use client";
 // Bu yerda siz kelgan leadlarni ko'rasiz
+
 const LeadRow = ({ lead }) => (
   <tr className="border-b border-slate-800 hover:bg-slate-900/50 transition">
     <td className="p-4">{lead.name}</td>
